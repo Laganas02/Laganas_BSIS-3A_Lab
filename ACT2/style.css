@@ -29,6 +29,14 @@ header h1 {
     color: #BE6E9E; /* Light accent color for the header title */
 }
 
+/* Profile image styles */
+.profile-img {
+    width: 150px; /* Set the width of the image */
+    height: auto; /* Keep the aspect ratio */
+    border-radius: 50%; /* Makes the image circular */
+    margin-bottom: 15px; /* Adds space below the image */
+}
+
 /* Section styles */
 section {
     background-color: #905583; /* Medium purple for section background */
