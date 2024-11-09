@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Blog Page</title>
+    <link rel="stylesheet" href="BlogStyle.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">l
+    <link href="https://fonts.googleapis.com/css2?family=Noticia+Text:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/3ed2e4d891.js" crossorigin="anonymous"></script>    
+  </head>
+  <body>
+    <section class="header">
+        <nav>
+            <a href="BlogPage.html"><img src="images/Logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times-circle" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="">HOME</a></li>
+                    <li><a href="">ABOUT ME</a></li>
+                    <li><a href="">HOBBIES</a></li>
+                    <li><a href="">PERSONAL INFO</a></li>
+                    <li><a href="">ACTIVITIES</a></li>
+                    <li><a href="">BLOG</a></li>
+                    <li><a href="">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+        <div class="text-box">
+             <h1><span>Andrea's World:</span> Hobbies, Life & Daily Adventures</h1>
+             <p>Explore the things that bring joy and inspiration to my life. 
+             From hobbies that fuel my creativity to personal stories and activities that keep me engaged, <br>this blog is a glimpse into my journey. 
+             Visit to know more and find ideas that resonate with you!</p>
+             <a href="" class="btn">Visit to know more</a>
+         </div>
+
+    </section>
+
+<!-- HOBBIES -->
+    <section class="hobbies">
+        <h1>Passions & Interests</h1>
+        <p>Hobbies are what keep life interesting. 
+            Whether it's listening to music, gaming, or diving into a good book,
+             I love exploring new ways to unwind and be creative. 
+            Here, you’ll find what I enjoy most in my free time</p>
+        <div class="row">
+            <div class="hob-col">
+                <h3>Music</h3>
+                <p>Music has the power to uplift and energize. Whether you're listening to
+                     your favorite playlist, exploring new genres, or attending live performances,
+                     music offers an emotional connection that can be deeply personal.</p>
+            </div>
+            <div class="hob-col">
+                <h3>Game</h3>
+                <p>I love gaming, especially those that let me dive into fantasy worlds or challenge
+                     my strategic thinking. Whether it’s playing a competitive multiplayer game or a
+                      single-player RPG, gaming is my way of unwinding and having fun with friends.</p>
+            </div>
+            <div class="hob-col">
+                <h3>Reading</h3>
+                <p>Reading has been one of my favorite pastimes for as long as I can remember. 
+                    From gripping novels to interesting short stories, I love escaping into different
+                     worlds through books. Whether it’s fiction or non-fiction, there’s always
+                      something new to discover.</p>
+            </div>
+        </div>
+    </section>
+
+<!-- PERSONAL INFO -->
+<section class="personalInfo">
+    <h1>A Glimpse Into My Life</h1>
+    <p>I’m passionate about saving money and staying organized. I’m curious by nature, always learning new things,
+         and I enjoy being creative while keeping a practical outlook on life.</p>
+    <div class="row">
+        <div class="perInfo">
+            <h3> Like saving money</h3>
+            <img src="images/Save money.jpg"
+            <p>I’ve always been someone who prefers to save rather than spend.
+                 Whether it’s for big goals like travel or just having a rainy-day fund,
+                 I like knowing I’ve got something tucked away for the future.</p>
+        </div>
+        <div class="perInfo">
+            <h3> Favorite Food</h3>
+            <p>When it comes to food, I’m all about variety. But if I had to choose,
+                 I’d say I have a soft spot for anything savory—especially dishes that bring comfort, like pizza or pasta.</p>
+        </div>
+        <div class="perInfo">
+            <h3> Daily Habits</h3>
+            <p>I start my day with a cup of coffee and a bit of quiet time before diving into my tasks. 
+                It’s a habit that helps me stay focused and sets the tone for the rest of the day</p>
+        </div>
+
+    </div>
+</section>
+
+ <!-- ACTIVITY -->
+ <section class="activity">
+    <h1>Life in Motion: My Everyday Activities</h1>
+    <p>I love spending weekends exploring new places and trying new things. 
+        My daily routines keep me active and make life exciting.</p>
+    <div class="row">
+        <div class="actCol">
+            <h3>Daily Routines</h3>
+            <img src="images/cup.jpg"
+            <p>My daily routine plays a big role in shaping my day. I usually start 
+                with a cup of coffee to wake up, followed by a bit of exercise to energize myself for the day ahead. 
+                Then, I dive into work or school tasks, staying productive with a clear plan in mind.</p>
+
+        </div>
+        <div class="actCol">
+            <h3>Helping Out and Gaining Experience</h3>
+            <img src="images/shop.jpg"
+            <p>Every week, I step in to help out by selling goods at my neighbor’s house
+                 in place of my mom. It’s a routine I’ve come to enjoy as it not only allows 
+                 me to lend a hand but also gives me valuable experience in managing sales,
+                  interacting with customers, and keeping track of inventory.</p>
+        </div>
+    </div>
+</section>
+
+
+    <script>
+        var navLinks = document.getElementById("navLinks")
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+    </script>
+  </body>
+</html>
